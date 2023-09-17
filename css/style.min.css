@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #cfd2ba;
 }
 
 .content {
@@ -11,6 +12,7 @@ body {
 
 .input_number {
   display: block;
+  background-color: #cfd2ba;
   width: 500px;
   height: 100px;
   text-align: center;
@@ -19,17 +21,24 @@ body {
   outline: none;
 }
 
+#myNumberInput::-webkit-inner-spin-button,
+#myNumberInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
 .out_blocks {
   width: 500px;
   height: 100px;
   font-size: 50px;
-  margin-top: 20px;
 }
 
 .block_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 .text_center {
